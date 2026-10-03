@@ -7,7 +7,7 @@ public class loops1 {
            System.out.println("B");
        } else if ( marks >=60 ) {
            System.out.println("C");
-       } if ( marks >=50 ){
+       } else if ( marks >=50 ){
            System.out.println("D");
        } else {
            System.out.println("Fail");
