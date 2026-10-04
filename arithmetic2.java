@@ -5,5 +5,9 @@ public class arithmetic2 {
        int c = 30;
         System.out.println("Total:" + (a + b + c));
         System.out.println("Average:" + (a + b + c) / 3);
+        System.out.println(a + " + " + b + " = " + (a + b));
+        System.out.println(a + " - " + b + " = " + (a - b));
+        System.out.println(a + " * " + b + " = " + (a * b));
+        System.out.println(a + " / " + b + " = " + (a / b));
     }
 }
