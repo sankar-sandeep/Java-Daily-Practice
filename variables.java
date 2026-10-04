@@ -1,16 +1,11 @@
-
-import javax.sound.sampled.SourceDataLine;
-
 public class variables {
-    public static void main(String[] args) {
+        public static void main(String[] args) {
         String name = "Sandeep";
         int age = 19;
         int mark = 80;
         System.out.println("Name: " + name);
         System.out.println("Age: " + age);
-        if ( age >= 18 ) {
-            System.out.println("Eligible");
-        } else if ( mark >= 40 ) {
+        if ( age >= 18 && mark >= 40 ) {
             System.out.println("Eligible");
         } else {
             System.out.println("Not Eligible");
