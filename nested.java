@@ -64,5 +64,12 @@ public class nested {
             System.out.println(j);
             j--;
         } while ( j >= 1);
+        System.out.println();
+        System.out.println("Multiplication Table: ");
+        for ( int k = 1; k <= 10; k++ ) {
+            System.out.println("8 * " + k + " = " + (8 * k));
+        }
+         System.out.println();
+            System.out.println("Program completed successfully!");
     }
 }
