@@ -57,5 +57,12 @@ public class nested {
             i++;
         }
         System.out.println(sum);
+        System.out.println();
+        System.out.println("Countdown: ");
+        int j = 10;
+        do { 
+            System.out.println(j);
+            j--;
+        } while ( j >= 1);
     }
 }
