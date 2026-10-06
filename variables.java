@@ -5,6 +5,7 @@ public class variables {
         int mark = 80;
         System.out.println("Name: " + name);
         System.out.println("Age: " + age);
+        System.out.println("Mark: " + mark);
         if ( age >= 18 && mark >= 40 ) {
             System.out.println("Eligible");
         } else {
