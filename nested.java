@@ -31,7 +31,6 @@ public class nested {
         System.out.println();
         System.out.println("Odd Numbers from 1 to 20:");
         for ( int i =1 ; i <= 19; i += 2 ) {
-            System.out.println(i);
             if ( i == 2 ) {
                 continue;
             } if ( i == 6 ) {
@@ -47,6 +46,16 @@ public class nested {
             } if ( i == 17 ) {
                 break;
             }
+             System.out.println(i);
         }
+        System.out.println();
+        System.out.println("Sum of numbers from 1 to 10: ");
+        int i = 1;
+        int sum = 0;
+        while ( i <= 10 ) {
+            sum += i;
+            i++;
+        }
+        System.out.println(sum);
     }
 }
