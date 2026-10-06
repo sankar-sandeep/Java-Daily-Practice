@@ -1,4 +1,4 @@
-public class nested {
+public class loop6 {
     public static void main(String[] args) {
         String name = "Sankar Sandeep";
         int age = 19;
