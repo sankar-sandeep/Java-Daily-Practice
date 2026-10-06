@@ -9,6 +9,11 @@ public class nested {
         int TOCMark = 65;
         System.out.println("Name: " + name);
         System.out.println("Age: " + age);
+        System.out.println("Subject1: " + javaMark);
+        System.out.println("Subject2: " + MathsMark);
+        System.out.println("Subject3: " + DAAMark);
+        System.out.println("Subject4: " + AiMark);
+        System.out.println("Subject5: " + TOCMark);
         System.out.println();
         System.out.println("Total Marks: " + (javaMark + MathsMark + DAAMark + AiMark + TOCMark));
         System.out.println("Average Marks:" + ((javaMark + MathsMark + DAAMark + AiMark + TOCMark) / 5));
