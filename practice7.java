@@ -1,7 +1,9 @@
 public class practice7 {
     public static void main(String[] args) {
-        int[] marks = {60, 70, 80};
-        marks[2] = 90;
-        System.out.println(marks[2]);
+        int [] marks = {10, 20, 30, 40, 50};
+        for ( int i = 0; i < marks.length; i++) {
+            System.out.println(marks[i]);
+        }
     }
 }
+
