@@ -1,9 +1,11 @@
 public class practice7 {
     public static void main(String[] args) {
-        int [] marks = {10, 20, 30, 40, 50};
-        for ( int i = 0; i < 5; i++) {
-            System.out.println(marks[i]);
+        int [] marks = {5, 10, 15, 20,};
+        int sum = 0;
+        for ( int i =0; i < marks.length; i++ ) {
+            sum = sum + marks[i];
         }
+        System.out.println(sum);
     }
 }
 
